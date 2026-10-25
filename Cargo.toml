@@ -6,7 +6,7 @@ build = "build.rs"
 
 [[bin]]
 name = "FiReWork"
-path = "path = "main.rs"
+path = "main.rs"
 
 [profile.release]
 opt-level = "z"
