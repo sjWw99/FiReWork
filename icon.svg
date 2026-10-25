@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#123a63"/><stop offset="1" stop-color="#071a2e"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5cc6ff"/><stop offset="0.5" stop-color="#2f8fe0"/><stop offset="1" stop-color="#1b5fae"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#f1f7ff"/><stop offset="0.5" stop-color="#b9cce0"/><stop offset="1" stop-color="#7f98b4"/></linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <g fill="#9fd8ff" opacity="0.16"><circle cx="46" cy="52" r="3"/><circle cx="210" cy="60" r="2.5"/><circle cx="214" cy="200" r="3"/><circle cx="44" cy="206" r="2.5"/></g>
+  <!-- открытая дужка (разблокировано) -->
+  <path d="M106 128 L106 98 A 22 22 0 0 1 150 90" fill="none" stroke="url(#steel)" stroke-width="13" stroke-linecap="round"/>
+  <!-- корпус -->
+  <rect x="80" y="122" width="96" height="86" rx="18" fill="url(#body)" stroke="#bfe8ff" stroke-width="3"/>
+  <path d="M94 126 H162 A10 10 0 0 1 172 136 V150 C150 142 106 142 84 150 V136 A10 10 0 0 1 94 126 Z" fill="#ffffff" opacity="0.14"/>
+  <!-- скважина -->
+  <circle cx="128" cy="156" r="11" fill="#0a2744"/>
+  <path d="M122 164 L118 188 L138 188 L134 164 Z" fill="#0a2744"/>
+</svg>
